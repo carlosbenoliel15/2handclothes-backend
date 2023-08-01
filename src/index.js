@@ -10,7 +10,7 @@ const categoryRoutes = require('./routes/categoriasRoutes');
 const marcaRoutes = require('./routes/marcaRoutes');
 const ChatRooms = require('./models/ChatRoom');
 const asyncHandler = require('express-async-handler');
-const User = require('../src/models/UserSchema');
+const User = require('./models/UserSchema');
 const { configureWebSocket } = require('./socke');
 
 require('dotenv').config();
